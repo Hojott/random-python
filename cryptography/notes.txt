@@ -1,0 +1,5 @@
+P: selväkieli
+E: enkryptaus
+D: dekryptaus
+K: avain
+C: salakieli
