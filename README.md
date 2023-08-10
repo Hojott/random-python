@@ -1,6 +1,8 @@
 # Random Python
 
-Random, most likely bad, Python code made for different things
+Random Python code made for different things, quality by no means guaranteed.
+
+Note this repo might contain code also present in other repos, because I usually first add my code here when making smaller projects.
 
 ## Cryptography
 Cryptography course, because the website didn't really work.
@@ -13,4 +15,5 @@ Code about math, usually inspired by YT-videos
 Some code for skimming through Minecraft source files
 
 ## Completely random
-I'm not even sure...
+I'm not even sure about these...
+
