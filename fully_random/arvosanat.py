@@ -1,0 +1,1 @@
+(lambda p: print("mahdotonta!") if p not in range(0,100) else print(f"Arvosana: hylätty") if ((p-50) // 10.01)+1 < 1 else print(f"Arvosana: {min(5, ((p-50)//10)+1)}"))(int(input("Anna pisteet [0-100] ")))
