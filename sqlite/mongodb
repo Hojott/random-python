@@ -1,0 +1,8 @@
+db.tyontekijat.insertOne({nimi: 'Maija', yritys: 'Google', palkka: 8000})
+db.tyontekijat.insertOne({nimi: 'Uolevi', yritys: 'Amazon', palkka: 5000})
+db.tyontekijat.insertOne({nimi: 'Kotivalo', yritys: 'Google', palkka: 7000})
+db.tyontekijat.insertOne({nimi: 'Kaaleppi', yritys: 'Facebook', palkka: 6000})
+db.tyontekijat.insertOne({nimi: 'Liisa', yritys: 'Amazon', palkka: 9000})
+db.tyontekijat.insertOne({nimi: 'Anna', yritys: 'Amazon', palkka: 6500})
+
+db.tyontekijat.aggregate([{ $group: {_id: "$yritys", tmaara: {$sum: "$tyontekijat"}, pmax: {$max: "$palkka"}}}])
